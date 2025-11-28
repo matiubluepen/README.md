@@ -16,10 +16,8 @@ attendance text file (e.g. s1388048_attend.txt)<br>
 
 class schedule text file (e.g. s1388048_schedule.txt)<br>
 <pre>
-'''
 11~28~09:00-10:50~COMP1080SEF L01~JCC D0212	← a line in text file<br>
 month~day~time~course~venue<br>
-'''
 </pre>
 (lessons recorded only contains October and November)
 
