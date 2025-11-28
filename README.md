@@ -9,7 +9,7 @@ default user accounts (username, password)
 
 attendance text file (e.g. s1388048_attend.txt)
 65	← total classes in a term
-0:0	← classes had : classes attended<br>
+0:0	← classes had : classes attended
 0	← total tokens used
 0	← number of $5 coupons
 0	← number of $10 coupons
