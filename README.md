@@ -15,8 +15,12 @@ attendance text file (e.g. s1388048_attend.txt)<br>
 0	← number of $10 coupons
 
 class schedule text file (e.g. s1388048_schedule.txt)<br>
+<pre>
+'''
 11~28~09:00-10:50~COMP1080SEF L01~JCC D0212	← a line in text file<br>
 month~day~time~course~venue<br>
+'''
+</pre>
 (lessons recorded only contains October and November)
 
 (The three testing accounts are planned to be created by the school side, and at the same time the attendance and schedule text file are planned to be created when the account is created. Therefore, only these three accounts are available for testing the functions of the system.)<br>
