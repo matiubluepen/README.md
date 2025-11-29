@@ -42,11 +42,18 @@ it is used for making data for attendance calculations. Not expected to be used 
 press "yes" or "no" to choose whether you have attended a lesson or not.<br>
 it will affect the "class had" and class attended" in attend.txt
 
+after that, press Enter to get back to the main menu
+
 ### attendance calculator
 it will show the total attendance of the users, and can exchange coupons through tokens gained through attending classes.
 
+(if you want to have a quick access on the attendance part, you can straightly edit the attend.txt with a correct format
+(please don't enter anything that is out of the pattern to prevent error occurs)
+(users can't edit the text file straightly for normal use))<br>
+(also, we expect that the class had and class attended won't be larger than the total classes in a term, please pay attention while editting the text file)
+
 trade system:<br>
-tokens haved = classes attended / total classes in a term<br>
+number of tokens = classes attended // total classes in a term<br>
 (70% attendance = + 10 tokens, 80% attendance = + another 10 tokens)<br>
 $5 coupons = 20 tokens<br>
 $10 coupons = 35 tokens
@@ -67,3 +74,10 @@ the text file only contains October and November events of the user.
 users can switch month (Jan-Dec), add events, view events, and back to main menu<br>
 add events: users can choose a date, add their own events by typing it themselves (e.g. 9:30-11:30COMP exam) (can't input the symbol "~")<br>
 view events: users can choose a date, and view all the events through an ordered list
+
+(the events added will be added into the schedule.txt)
+
+### end
+there are two ways to end the system<br>
+1. end at the login page
+2. end at the main menu
